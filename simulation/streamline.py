@@ -1,4 +1,4 @@
-import numpy as npstat
+import numpy as np
 
 from models.velocity_field import VelocityField
 from numerics.runge_kutta import RungeKuttaButcher

@@ -65,5 +65,5 @@ class StreamlineCalculator:
         lines = []
         for x0 in seeds:
             line = self.integrate_streamline(x0, t_star, s_max, ds)
-            lines.append(line)
+            lines.append(line)  # заполнение списка
         return lines

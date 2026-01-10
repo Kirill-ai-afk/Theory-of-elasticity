@@ -53,3 +53,4 @@ class TrajectorySimulator:
             t, xs = self.integrate_point(p, t0, t1, dt)
             result.append((p, t, xs))
         return result
+
